@@ -14,6 +14,20 @@
 		187E7F5F27FD658000D10E20 /* KMOOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7F5E27FD658000D10E20 /* KMOOCTests.swift */; };
 		187E7F6927FD658000D10E20 /* KMOOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7F6827FD658000D10E20 /* KMOOCUITests.swift */; };
 		187E7F6B27FD658000D10E20 /* KMOOCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7F6A27FD658000D10E20 /* KMOOCUITestsLaunchTests.swift */; };
+		187E7F8327FD65E000D10E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187E7F8227FD65E000D10E20 /* LaunchScreen.storyboard */; };
+		187E7F8627FD665B00D10E20 /* LectureListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7F8527FD665B00D10E20 /* LectureListView.swift */; };
+		18FAF97227FD6DF8005AF15E /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF96327FD6DF8005AF15E /* DateUtil.swift */; };
+		18FAF97327FD6DF8005AF15E /* KmoocRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF96527FD6DF8005AF15E /* KmoocRepository.swift */; };
+		18FAF97427FD6DF8005AF15E /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF96727FD6DF8005AF15E /* Lecture.swift */; };
+		18FAF97527FD6DF8005AF15E /* LectureList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF96827FD6DF8005AF15E /* LectureList.swift */; };
+		18FAF97627FD6DF8005AF15E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF96A27FD6DF8005AF15E /* ImageLoader.swift */; };
+		18FAF97727FD6DF8005AF15E /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF96B27FD6DF8005AF15E /* HttpClient.swift */; };
+		18FAF97827FD6DF8005AF15E /* KmoocDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF96D27FD6DF8005AF15E /* KmoocDetailViewModel.swift */; };
+		18FAF97C27FD73AE005AF15E /* KmoocListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF97B27FD73AE005AF15E /* KmoocListViewModel.swift */; };
+		18FAF98327FD80E7005AF15E /* LectureListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF98227FD80E7005AF15E /* LectureListItemView.swift */; };
+		18FAF98527FD8498005AF15E /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF98427FD8498005AF15E /* ImageCache.swift */; };
+		18FAF98727FD8C77005AF15E /* LectureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF98627FD8C77005AF15E /* LectureDetailView.swift */; };
+		18FAF98927FD9333005AF15E /* LectureDetailWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAF98827FD9333005AF15E /* LectureDetailWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,21 @@
 		187E7F6427FD658000D10E20 /* KMOOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMOOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187E7F6827FD658000D10E20 /* KMOOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMOOCUITests.swift; sourceTree = "<group>"; };
 		187E7F6A27FD658000D10E20 /* KMOOCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMOOCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		187E7F8227FD65E000D10E20 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187E7F8527FD665B00D10E20 /* LectureListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureListView.swift; sourceTree = "<group>"; };
+		18FAF96327FD6DF8005AF15E /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		18FAF96527FD6DF8005AF15E /* KmoocRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmoocRepository.swift; sourceTree = "<group>"; };
+		18FAF96727FD6DF8005AF15E /* Lecture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+		18FAF96827FD6DF8005AF15E /* LectureList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LectureList.swift; sourceTree = "<group>"; };
+		18FAF96A27FD6DF8005AF15E /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		18FAF96B27FD6DF8005AF15E /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		18FAF96D27FD6DF8005AF15E /* KmoocDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmoocDetailViewModel.swift; sourceTree = "<group>"; };
+		18FAF97A27FD6FC8005AF15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		18FAF97B27FD73AE005AF15E /* KmoocListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmoocListViewModel.swift; sourceTree = "<group>"; };
+		18FAF98227FD80E7005AF15E /* LectureListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureListItemView.swift; sourceTree = "<group>"; };
+		18FAF98427FD8498005AF15E /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		18FAF98627FD8C77005AF15E /* LectureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureDetailView.swift; sourceTree = "<group>"; };
+		18FAF98827FD9333005AF15E /* LectureDetailWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureDetailWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +123,15 @@
 		187E7F4C27FD657F00D10E20 /* KMOOC */ = {
 			isa = PBXGroup;
 			children = (
+				18FAF98127FD7421005AF15E /* Repository */,
+				18FAF98027FD7418005AF15E /* Network */,
+				18FAF97F27FD740B005AF15E /* Util */,
+				18FAF97E27FD73FB005AF15E /* ViewModels */,
+				18FAF97D27FD73F0005AF15E /* Models */,
+				18FAF97A27FD6FC8005AF15E /* Info.plist */,
+				187E7F8427FD661D00D10E20 /* Views */,
+				187E7F7727FD658F00D10E20 /* Resources */,
 				187E7F4D27FD657F00D10E20 /* KMOOCApp.swift */,
-				187E7F4F27FD657F00D10E20 /* ContentView.swift */,
-				187E7F5127FD658000D10E20 /* Assets.xcassets */,
 				187E7F5327FD658000D10E20 /* Preview Content */,
 			);
 			path = KMOOC;
@@ -125,6 +160,71 @@
 				187E7F6A27FD658000D10E20 /* KMOOCUITestsLaunchTests.swift */,
 			);
 			path = KMOOCUITests;
+			sourceTree = "<group>";
+		};
+		187E7F7727FD658F00D10E20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				187E7F8227FD65E000D10E20 /* LaunchScreen.storyboard */,
+				187E7F5127FD658000D10E20 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		187E7F8427FD661D00D10E20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				187E7F4F27FD657F00D10E20 /* ContentView.swift */,
+				187E7F8527FD665B00D10E20 /* LectureListView.swift */,
+				18FAF98227FD80E7005AF15E /* LectureListItemView.swift */,
+				18FAF98627FD8C77005AF15E /* LectureDetailView.swift */,
+				18FAF98827FD9333005AF15E /* LectureDetailWebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18FAF97D27FD73F0005AF15E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18FAF96727FD6DF8005AF15E /* Lecture.swift */,
+				18FAF96827FD6DF8005AF15E /* LectureList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18FAF97E27FD73FB005AF15E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				18FAF96D27FD6DF8005AF15E /* KmoocDetailViewModel.swift */,
+				18FAF97B27FD73AE005AF15E /* KmoocListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18FAF97F27FD740B005AF15E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				18FAF96327FD6DF8005AF15E /* DateUtil.swift */,
+				18FAF98427FD8498005AF15E /* ImageCache.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		18FAF98027FD7418005AF15E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				18FAF96A27FD6DF8005AF15E /* ImageLoader.swift */,
+				18FAF96B27FD6DF8005AF15E /* HttpClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		18FAF98127FD7421005AF15E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				18FAF96527FD6DF8005AF15E /* KmoocRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187E7F8327FD65E000D10E20 /* LaunchScreen.storyboard in Resources */,
 				187E7F5527FD658000D10E20 /* Preview Assets.xcassets in Resources */,
 				187E7F5227FD658000D10E20 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +358,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FAF97427FD6DF8005AF15E /* Lecture.swift in Sources */,
+				18FAF98527FD8498005AF15E /* ImageCache.swift in Sources */,
+				18FAF98727FD8C77005AF15E /* LectureDetailView.swift in Sources */,
+				18FAF97327FD6DF8005AF15E /* KmoocRepository.swift in Sources */,
+				18FAF98327FD80E7005AF15E /* LectureListItemView.swift in Sources */,
+				18FAF97527FD6DF8005AF15E /* LectureList.swift in Sources */,
+				18FAF97827FD6DF8005AF15E /* KmoocDetailViewModel.swift in Sources */,
+				187E7F8627FD665B00D10E20 /* LectureListView.swift in Sources */,
+				18FAF97727FD6DF8005AF15E /* HttpClient.swift in Sources */,
+				18FAF97227FD6DF8005AF15E /* DateUtil.swift in Sources */,
 				187E7F5027FD657F00D10E20 /* ContentView.swift in Sources */,
+				18FAF97627FD6DF8005AF15E /* ImageLoader.swift in Sources */,
+				18FAF98927FD9333005AF15E /* LectureDetailWebView.swift in Sources */,
 				187E7F4E27FD657F00D10E20 /* KMOOCApp.swift in Sources */,
+				18FAF97C27FD73AE005AF15E /* KmoocListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,11 +533,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KMOOC/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K3W33ZZ68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KMOOC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -435,7 +552,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -447,11 +564,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KMOOC/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K3W33ZZ68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KMOOC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,7 +583,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
