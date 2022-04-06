@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187E7F4E27FD657F00D10E20 /* KMOOCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7F4D27FD657F00D10E20 /* KMOOCApp.swift */; };
+		187E7F5027FD657F00D10E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7F4F27FD657F00D10E20 /* ContentView.swift */; };
+		187E7F5227FD658000D10E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187E7F5127FD658000D10E20 /* Assets.xcassets */; };
+		187E7F5527FD658000D10E20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187E7F5427FD658000D10E20 /* Preview Assets.xcassets */; };
+		187E7F5F27FD658000D10E20 /* KMOOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7F5E27FD658000D10E20 /* KMOOCTests.swift */; };
+		187E7F6927FD658000D10E20 /* KMOOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7F6827FD658000D10E20 /* KMOOCUITests.swift */; };
+		187E7F6B27FD658000D10E20 /* KMOOCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E7F6A27FD658000D10E20 /* KMOOCUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187E7F5B27FD658000D10E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187E7F4227FD657F00D10E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187E7F4927FD657F00D10E20;
+			remoteInfo = KMOOC;
+		};
+		187E7F6527FD658000D10E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187E7F4227FD657F00D10E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187E7F4927FD657F00D10E20;
+			remoteInfo = KMOOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187E7F4A27FD657F00D10E20 /* KMOOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMOOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187E7F4D27FD657F00D10E20 /* KMOOCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMOOCApp.swift; sourceTree = "<group>"; };
+		187E7F4F27FD657F00D10E20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		187E7F5127FD658000D10E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187E7F5427FD658000D10E20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		187E7F5A27FD658000D10E20 /* KMOOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMOOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187E7F5E27FD658000D10E20 /* KMOOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMOOCTests.swift; sourceTree = "<group>"; };
+		187E7F6427FD658000D10E20 /* KMOOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMOOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187E7F6827FD658000D10E20 /* KMOOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMOOCUITests.swift; sourceTree = "<group>"; };
+		187E7F6A27FD658000D10E20 /* KMOOCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMOOCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187E7F4727FD657F00D10E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E7F5727FD658000D10E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E7F6127FD658000D10E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187E7F4127FD657F00D10E20 = {
+			isa = PBXGroup;
+			children = (
+				187E7F4C27FD657F00D10E20 /* KMOOC */,
+				187E7F5D27FD658000D10E20 /* KMOOCTests */,
+				187E7F6727FD658000D10E20 /* KMOOCUITests */,
+				187E7F4B27FD657F00D10E20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187E7F4B27FD657F00D10E20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187E7F4A27FD657F00D10E20 /* KMOOC.app */,
+				187E7F5A27FD658000D10E20 /* KMOOCTests.xctest */,
+				187E7F6427FD658000D10E20 /* KMOOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187E7F4C27FD657F00D10E20 /* KMOOC */ = {
+			isa = PBXGroup;
+			children = (
+				187E7F4D27FD657F00D10E20 /* KMOOCApp.swift */,
+				187E7F4F27FD657F00D10E20 /* ContentView.swift */,
+				187E7F5127FD658000D10E20 /* Assets.xcassets */,
+				187E7F5327FD658000D10E20 /* Preview Content */,
+			);
+			path = KMOOC;
+			sourceTree = "<group>";
+		};
+		187E7F5327FD658000D10E20 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				187E7F5427FD658000D10E20 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		187E7F5D27FD658000D10E20 /* KMOOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				187E7F5E27FD658000D10E20 /* KMOOCTests.swift */,
+			);
+			path = KMOOCTests;
+			sourceTree = "<group>";
+		};
+		187E7F6727FD658000D10E20 /* KMOOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187E7F6827FD658000D10E20 /* KMOOCUITests.swift */,
+				187E7F6A27FD658000D10E20 /* KMOOCUITestsLaunchTests.swift */,
+			);
+			path = KMOOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187E7F4927FD657F00D10E20 /* KMOOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187E7F6E27FD658000D10E20 /* Build configuration list for PBXNativeTarget "KMOOC" */;
+			buildPhases = (
+				187E7F4627FD657F00D10E20 /* Sources */,
+				187E7F4727FD657F00D10E20 /* Frameworks */,
+				187E7F4827FD657F00D10E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMOOC;
+			productName = KMOOC;
+			productReference = 187E7F4A27FD657F00D10E20 /* KMOOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187E7F5927FD658000D10E20 /* KMOOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187E7F7127FD658000D10E20 /* Build configuration list for PBXNativeTarget "KMOOCTests" */;
+			buildPhases = (
+				187E7F5627FD658000D10E20 /* Sources */,
+				187E7F5727FD658000D10E20 /* Frameworks */,
+				187E7F5827FD658000D10E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187E7F5C27FD658000D10E20 /* PBXTargetDependency */,
+			);
+			name = KMOOCTests;
+			productName = KMOOCTests;
+			productReference = 187E7F5A27FD658000D10E20 /* KMOOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187E7F6327FD658000D10E20 /* KMOOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187E7F7427FD658000D10E20 /* Build configuration list for PBXNativeTarget "KMOOCUITests" */;
+			buildPhases = (
+				187E7F6027FD658000D10E20 /* Sources */,
+				187E7F6127FD658000D10E20 /* Frameworks */,
+				187E7F6227FD658000D10E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187E7F6627FD658000D10E20 /* PBXTargetDependency */,
+			);
+			name = KMOOCUITests;
+			productName = KMOOCUITests;
+			productReference = 187E7F6427FD658000D10E20 /* KMOOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187E7F4227FD657F00D10E20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					187E7F4927FD657F00D10E20 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					187E7F5927FD658000D10E20 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 187E7F4927FD657F00D10E20;
+					};
+					187E7F6327FD658000D10E20 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 187E7F4927FD657F00D10E20;
+					};
+				};
+			};
+			buildConfigurationList = 187E7F4527FD657F00D10E20 /* Build configuration list for PBXProject "KMOOC" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187E7F4127FD657F00D10E20;
+			productRefGroup = 187E7F4B27FD657F00D10E20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187E7F4927FD657F00D10E20 /* KMOOC */,
+				187E7F5927FD658000D10E20 /* KMOOCTests */,
+				187E7F6327FD658000D10E20 /* KMOOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187E7F4827FD657F00D10E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E7F5527FD658000D10E20 /* Preview Assets.xcassets in Resources */,
+				187E7F5227FD658000D10E20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E7F5827FD658000D10E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E7F6227FD658000D10E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187E7F4627FD657F00D10E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E7F5027FD657F00D10E20 /* ContentView.swift in Sources */,
+				187E7F4E27FD657F00D10E20 /* KMOOCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E7F5627FD658000D10E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E7F5F27FD658000D10E20 /* KMOOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187E7F6027FD658000D10E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187E7F6B27FD658000D10E20 /* KMOOCUITestsLaunchTests.swift in Sources */,
+				187E7F6927FD658000D10E20 /* KMOOCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187E7F5C27FD658000D10E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187E7F4927FD657F00D10E20 /* KMOOC */;
+			targetProxy = 187E7F5B27FD658000D10E20 /* PBXContainerItemProxy */;
+		};
+		187E7F6627FD658000D10E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187E7F4927FD657F00D10E20 /* KMOOC */;
+			targetProxy = 187E7F6527FD658000D10E20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		187E7F6C27FD658000D10E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187E7F6D27FD658000D10E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187E7F6F27FD658000D10E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KMOOC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k00kie.KMOOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187E7F7027FD658000D10E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KMOOC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k00kie.KMOOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187E7F7227FD658000D10E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k00kie.KMOOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMOOC.app/KMOOC";
+			};
+			name = Debug;
+		};
+		187E7F7327FD658000D10E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k00kie.KMOOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMOOC.app/KMOOC";
+			};
+			name = Release;
+		};
+		187E7F7527FD658000D10E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k00kie.KMOOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMOOC;
+			};
+			name = Debug;
+		};
+		187E7F7627FD658000D10E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k00kie.KMOOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMOOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187E7F4527FD657F00D10E20 /* Build configuration list for PBXProject "KMOOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E7F6C27FD658000D10E20 /* Debug */,
+				187E7F6D27FD658000D10E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187E7F6E27FD658000D10E20 /* Build configuration list for PBXNativeTarget "KMOOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E7F6F27FD658000D10E20 /* Debug */,
+				187E7F7027FD658000D10E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187E7F7127FD658000D10E20 /* Build configuration list for PBXNativeTarget "KMOOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E7F7227FD658000D10E20 /* Debug */,
+				187E7F7327FD658000D10E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187E7F7427FD658000D10E20 /* Build configuration list for PBXNativeTarget "KMOOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187E7F7527FD658000D10E20 /* Debug */,
+				187E7F7627FD658000D10E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187E7F4227FD657F00D10E20 /* Project object */;
+}
