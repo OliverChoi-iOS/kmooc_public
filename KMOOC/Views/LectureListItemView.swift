@@ -17,7 +17,7 @@ struct LectureListItemView: View {
                     Image(uiImage: courseImage!)
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 142, height: 80)
+                        .frame(width: UIScreen.main.bounds.width / 3, height: UIScreen.main.bounds.width / 3 / 16 * 9)
                         .clipped()
                 }
             
